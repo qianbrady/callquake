@@ -145,3 +145,26 @@ ubuntu + windows × Python 3.10/3.12 四个组合上跑同一套测试。
 ## License
 
 [MIT](LICENSE) © 2025 ox-alpha
+
+## Install
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+```text
+$ python -m callquake --help
+usage: callquake [-h] [--version] {impact,risk,report} ...
+改一行代码前先看波及面：AST 调用链 + git 历史 = 0-100 风险分。
+positional arguments:
+  {impact,risk,report}
+    impact              列出调用某函数的所有位置（AST 反向索引）
+    risk                输出某函数的 0-100 风险分与分项建议
+    report              全仓 Top-10 高风险函数（Markdown 表格）
+```
+
+## Contributing
+
+Issues and PRs welcome - run `pytest` locally before submitting.
