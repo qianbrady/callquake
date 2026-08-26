@@ -1,5 +1,6 @@
 # callquake
 
+[![CI](https://github.com/qianbrady/callquake/actions/workflows/ci.yml/badge.svg)](https://github.com/qianbrady/callquake/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 > **Know the blast radius before you edit the fuse.**
 > A zero-dependency CLI that tells you who calls a function and how battle-scarred its file is — before you change a single line.
 
